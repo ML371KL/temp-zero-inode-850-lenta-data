@@ -1,11 +1,11 @@
 {
  "schema": "lenta-v1",
  "meta": {
-  "generated_at": "2026-11-03T13:35:16+00:00",
+  "generated_at": "2026-11-03T14:50:08+00:00",
   "valuation_date": "2026-11-03",
   "facts_date": "2026-06-30",
   "book_version": "1.2",
-  "engine_commit": "a25520c26e70f2857dbb6a8d9c827a6d7e8923fd",
+  "engine_commit": "908d36cefb42e1fe93d29ec1aa141ae1748f66ec",
   "horizon": [
    "2026H2",
    "2036H2"
@@ -22,9 +22,9 @@
   },
   "period_unit": "half",
   "first_period": "2026H2",
-  "payload_sha256": "a097359c6be3551ef5b90d31f9d0d118a74aab05c54071725242d56e77a72f21",
-  "bytes": 344379,
-  "published_at": "2026-11-03T13:35:26+00:00"
+  "payload_sha256": "526b0a4b67707a3d2b7042a2b85c8a7a6fec477200bdadab03cbc3ff0ee31d16",
+  "bytes": 344537,
+  "published_at": "2026-11-03T14:50:18+00:00"
  },
  "market": {
   "price": 1848.5,
@@ -16853,20 +16853,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 16.99,
+      "droge": {
+       "opened_area": 18.09,
        "model_halves": 1,
-       "stores_est": 23.0
+       "stores_est": 136.0
       },
       "conv": {
        "opened_area": 120.04,
        "model_halves": 1,
        "stores_est": 478.0
       },
-      "droge": {
-       "opened_area": 18.09,
+      "super": {
+       "opened_area": 16.99,
        "model_halves": 1,
-       "stores_est": 136.0
+       "stores_est": 23.0
       }
      }
     },
@@ -16882,20 +16882,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 26.71,
+      "droge": {
+       "opened_area": 36.2,
        "model_halves": 2,
-       "stores_est": 35.0
+       "stores_est": 273.0
       },
       "conv": {
        "opened_area": 208.61,
        "model_halves": 2,
        "stores_est": 831.0
       },
-      "droge": {
-       "opened_area": 36.2,
+      "super": {
+       "opened_area": 26.71,
        "model_halves": 2,
-       "stores_est": 273.0
+       "stores_est": 35.0
       }
      }
     },
@@ -16911,20 +16911,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 26.72,
+      "droge": {
+       "opened_area": 36.21,
        "model_halves": 2,
-       "stores_est": 35.0
+       "stores_est": 273.0
       },
       "conv": {
        "opened_area": 204.45,
        "model_halves": 2,
        "stores_est": 815.0
       },
-      "droge": {
-       "opened_area": 36.21,
+      "super": {
+       "opened_area": 26.72,
        "model_halves": 2,
-       "stores_est": 273.0
+       "stores_est": 35.0
       }
      }
     }
@@ -16942,20 +16942,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 15.0,
+      "droge": {
+       "opened_area": 15.29,
        "model_halves": 1,
-       "stores_est": 20.0
+       "stores_est": 115.0
       },
       "conv": {
        "opened_area": 113.19,
        "model_halves": 1,
        "stores_est": 451.0
       },
-      "droge": {
-       "opened_area": 15.29,
+      "super": {
+       "opened_area": 15.0,
        "model_halves": 1,
-       "stores_est": 115.0
+       "stores_est": 20.0
       }
      }
     },
@@ -16971,20 +16971,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 21.41,
+      "droge": {
+       "opened_area": 30.46,
        "model_halves": 2,
-       "stores_est": 28.0
+       "stores_est": 230.0
       },
       "conv": {
        "opened_area": 186.05,
        "model_halves": 2,
        "stores_est": 741.0
       },
-      "droge": {
-       "opened_area": 30.46,
+      "super": {
+       "opened_area": 21.41,
        "model_halves": 2,
-       "stores_est": 230.0
+       "stores_est": 28.0
       }
      }
     },
@@ -17000,20 +17000,20 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 21.42,
+      "droge": {
+       "opened_area": 30.46,
        "model_halves": 2,
-       "stores_est": 28.0
+       "stores_est": 230.0
       },
       "conv": {
        "opened_area": 173.15,
        "model_halves": 2,
        "stores_est": 690.0
       },
-      "droge": {
-       "opened_area": 30.46,
+      "super": {
+       "opened_area": 21.42,
        "model_halves": 2,
-       "stores_est": 230.0
+       "stores_est": 28.0
       }
      }
     }
@@ -17418,9 +17418,9 @@
     "mass": 1.0,
     "explained": true,
     "stale": false,
-    "expiring": true,
+    "expiring": false,
     "advisory": true,
-    "valid_until": "2026-11-03"
+    "valid_until": "2027-03-29"
    }
   },
   "notes": {
@@ -18145,21 +18145,21 @@
  },
  "changes": {
   "note": "изменение с прошлого выпуска, разложенное по источникам",
-  "previous": "01fca326ae37",
+  "previous": "a097359c6be3",
   "items": [
    {
-    "key": "assumptions",
-    "title": "допущения: новая версия книги",
-    "delta_v0": 14.65,
-    "delta_price": 59.4,
-    "note": "книга 1.1 → 1.2; код 62f858a34b71 → a25520c26e70"
+    "key": "engine",
+    "title": "изменение ядра/методики",
+    "delta_v0": 0.01,
+    "delta_price": 0.3,
+    "note": "код a25520c26e70 → 908d36cefb42"
    },
    {
     "key": "valuation_date",
     "title": "перекат даты оценки",
-    "delta_v0": -0.22,
-    "delta_price": 1.5,
-    "note": "2026-11-02 → 2026-11-03, 1 дн"
+    "delta_v0": 0.0,
+    "delta_price": 0.0,
+    "note": "2026-11-03 → 2026-11-03"
    },
    {
     "key": "observations",
@@ -18171,14 +18171,14 @@
    {
     "key": "curve",
     "title": "ставки: кривая бескупонной доходности",
-    "delta_v0": -0.72,
-    "delta_price": -3.5,
+    "delta_v0": 0.0,
+    "delta_price": 0.0,
     "note": ""
    }
   ],
   "total": {
-   "delta_v0": 13.71,
-   "delta_price": 57.3
+   "delta_v0": 0.01,
+   "delta_price": 0.3
   }
  },
  "live": {
@@ -18267,9 +18267,9 @@
    "pending": false,
    "mass_expected": 1.0,
    "mass_off": false,
-   "explanation": "Гайденс компании — рентабельность EBITDA не менее 7 % за 2026 год (релиз 02.06.2026) — требует 7,79 % во 2П2026 на выручке 2П центральной клетки 777,2 млрд ₽ (EBITDA 1П2026 39,28 на 648,49). Ожидание модели на 2П2026 — 6,25 % (с затухающим переходным убытком «Дом Ленты»), лучший режим («полная сходимость») — 6,68 %, за год — 6,16 %; гайденс не даёт ни один режим. Основание книги: органическое падение маржи унаследованного периметра −0,6…−0,7 п.п. г/г в 1 и 2 кв. 2026, убыток «Дом Ленты» в период ребрендинга (−28,9 % маржи в 1П2026, в целях — безубыточность «дна»), «О'КЕЙ» около безубыточности; 03.08.2026 компания цифру ≥7 % не повторила. Менеджмент выполнял гайденсы 2024–2025 годов — поэтому гейт, а не правка книги. Проверка — отчёт за 3 кв. 2026 (≈29.10.2026; ожидание модели на квартал 6,19 %): при марже 3 кв. ≥7 % — пересмотр целей «частичного» и «полного» режимов новой версией книги.",
-   "valid_until": "2026-11-03",
-   "expiring": true,
+   "explanation": "Гайденс компании — рентабельность EBITDA не менее 7 % за 2026 год (релиз 02.06.2026; в презентации за 3 кв. 2026 — стратегический ориентир «не ниже 7 % в 2025–2027 годах» без цифры на 4 кв.) — книга не даёт ни в одном режиме, и отчёт за 3 кв. 2026 расхождение подтвердил: маржа EBITDA 3 кв. (IAS 17, отчётный периметр с «О'КЕЙ» за весь квартал) — 6,14 % (22,06 млрд ₽ на 359,32; ожидание модели на квартал было 6,19 %), за 9 месяцев — 6,09 % (61,34 на 1 007,81). Чтобы выйти на 7 % за год, 4 кв. нужна маржа ≈9,2 % при выручке ≈418 млрд ₽ (2П центральной клетки 777,2 минус факт 3 кв.) — в 4 кв. 2025, лучшем квартале года, было 7,9 %. Ожидание модели на 2П2026 — 6,25 %, лучший режим («полная сходимость») — 6,68 %, за год — 6,16 %. Основание книги прежнее: органическое падение маржи унаследованного периметра, убыток «Дом Ленты» в период ребрендинга, «О'КЕЙ» около безубыточности. Книга не меняется: факт 2П2026 войдёт в обновление вероятностей режимов (A-P2u) при перезаякоривании на FY2026; проверка гейта — отчёт за FY2026 (≈26.03.2027).",
+   "valid_until": "2027-03-29",
+   "expiring": false,
    "message": ""
   },
   {
