@@ -1,11 +1,11 @@
 {
  "schema": "lenta-v1",
  "meta": {
-  "generated_at": "2026-11-03T17:37:19+00:00",
+  "generated_at": "2026-11-03T19:30:08+00:00",
   "valuation_date": "2026-11-03",
   "facts_date": "2026-06-30",
   "book_version": "1.2",
-  "engine_commit": "908d36cefb42e1fe93d29ec1aa141ae1748f66ec",
+  "engine_commit": "d1e47e031b1c65acd43cbc46f4359319b181b49f",
   "horizon": [
    "2026H2",
    "2036H2"
@@ -22,9 +22,9 @@
   },
   "period_unit": "half",
   "first_period": "2026H2",
-  "payload_sha256": "fd1e7316f28e24eb98978cc6f96f1cbbcded10c99f864c1cc52878de960e4e28",
-  "bytes": 351850,
-  "published_at": "2026-11-03T17:37:29+00:00"
+  "payload_sha256": "e01c10b617eedd66c1e9748ff90d2119d94ecfc5b2ecbeb93d3b08648a9bb9c1",
+  "bytes": 351824,
+  "published_at": "2026-11-03T19:30:20+00:00"
  },
  "market": {
   "price": 1946.5,
@@ -12162,11 +12162,12 @@
   },
   "interest": {
    "period": "2026Q4",
-   "net_interest": 3.81,
+   "net_interest": 4.28,
    "debt_interest": 4.85,
-   "cash_income": 1.04,
+   "cash_income": 0.82,
+   "bridge_accretion": 0.25,
    "average_debt": 141.9,
-   "average_cash": 49.2,
+   "average_cash": 38.7,
    "average_key_rate": 0.14,
    "effective_rate": 0.1356,
    "implied_spread": -0.0044,
@@ -17080,15 +17081,15 @@
        "model_halves": 1,
        "stores_est": 23.0
       },
-      "conv": {
-       "opened_area": 120.04,
-       "model_halves": 1,
-       "stores_est": 478.0
-      },
       "droge": {
        "opened_area": 18.09,
        "model_halves": 1,
        "stores_est": 136.0
+      },
+      "conv": {
+       "opened_area": 120.04,
+       "model_halves": 1,
+       "stores_est": 478.0
       }
      }
     },
@@ -17109,15 +17110,15 @@
        "model_halves": 2,
        "stores_est": 35.0
       },
-      "conv": {
-       "opened_area": 208.61,
-       "model_halves": 2,
-       "stores_est": 831.0
-      },
       "droge": {
        "opened_area": 36.2,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "conv": {
+       "opened_area": 208.61,
+       "model_halves": 2,
+       "stores_est": 831.0
       }
      }
     },
@@ -17138,15 +17139,15 @@
        "model_halves": 2,
        "stores_est": 35.0
       },
-      "conv": {
-       "opened_area": 204.45,
-       "model_halves": 2,
-       "stores_est": 815.0
-      },
       "droge": {
        "opened_area": 36.21,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "conv": {
+       "opened_area": 204.45,
+       "model_halves": 2,
+       "stores_est": 815.0
       }
      }
     }
@@ -17169,15 +17170,15 @@
        "model_halves": 1,
        "stores_est": 20.0
       },
-      "conv": {
-       "opened_area": 113.19,
-       "model_halves": 1,
-       "stores_est": 451.0
-      },
       "droge": {
        "opened_area": 15.29,
        "model_halves": 1,
        "stores_est": 115.0
+      },
+      "conv": {
+       "opened_area": 113.19,
+       "model_halves": 1,
+       "stores_est": 451.0
       }
      }
     },
@@ -17198,15 +17199,15 @@
        "model_halves": 2,
        "stores_est": 28.0
       },
-      "conv": {
-       "opened_area": 186.05,
-       "model_halves": 2,
-       "stores_est": 741.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "conv": {
+       "opened_area": 186.05,
+       "model_halves": 2,
+       "stores_est": 741.0
       }
      }
     },
@@ -17227,15 +17228,15 @@
        "model_halves": 2,
        "stores_est": 28.0
       },
-      "conv": {
-       "opened_area": 173.15,
-       "model_halves": 2,
-       "stores_est": 690.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "conv": {
+       "opened_area": 173.15,
+       "model_halves": 2,
+       "stores_est": 690.0
       }
      }
     }
@@ -18367,14 +18368,14 @@
  },
  "changes": {
   "note": "изменение с прошлого выпуска, разложенное по источникам",
-  "previous": "526b0a4b6770",
+  "previous": "fd1e7316f28e",
   "items": [
    {
-    "key": "residual",
-    "title": "прочее (взаимодействие шагов)",
+    "key": "engine",
+    "title": "изменение ядра/методики",
     "delta_v0": 0.01,
     "delta_price": 0.3,
-    "note": "книга, факты и код те же — остаток расчёта"
+    "note": "код 908d36cefb42 → d1e47e031b1c"
    },
    {
     "key": "valuation_date",
