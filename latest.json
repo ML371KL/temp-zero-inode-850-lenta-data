@@ -1,11 +1,11 @@
 {
  "schema": "lenta-v1",
  "meta": {
-  "generated_at": "2026-11-03T19:30:08+00:00",
+  "generated_at": "2026-11-03T20:40:00+00:00",
   "valuation_date": "2026-11-03",
   "facts_date": "2026-06-30",
   "book_version": "1.2",
-  "engine_commit": "d1e47e031b1c65acd43cbc46f4359319b181b49f",
+  "engine_commit": "4354054fa2be13c9a68dc2f9b260e7c89b5bd587",
   "horizon": [
    "2026H2",
    "2036H2"
@@ -22,9 +22,9 @@
   },
   "period_unit": "half",
   "first_period": "2026H2",
-  "payload_sha256": "e01c10b617eedd66c1e9748ff90d2119d94ecfc5b2ecbeb93d3b08648a9bb9c1",
-  "bytes": 351824,
-  "published_at": "2026-11-03T19:30:20+00:00"
+  "payload_sha256": "5deaee9c99b8f73af2629dc2a2856959f5de500ed0dc9545f151d7206b637e18",
+  "bytes": 350448,
+  "published_at": "2026-11-03T20:40:17+00:00"
  },
  "market": {
   "price": 1946.5,
@@ -12505,36 +12505,16 @@
  "calendar": {
   "today": "2026-11-03",
   "next_fact": {
-   "id": "lenta.q3_2026",
-   "when": "2026-10-29",
+   "id": "lenta.q4_2026_ops",
+   "when": "2027-02-05",
    "precision": "window",
-   "earliest": "2026-10-26",
-   "latest": "2026-11-03",
-   "title": "Лента: операционные и финансовые результаты 3 кв. и 9 мес. 2026 (пресс-релиз, датабук)",
-   "days": -5,
-   "note": "ФАКТ квартала: ближайший отчёт и первая точка нау-каста lenta-margin-v1 и журнала (D2, D15). Маржа 3 кв. — в зачёт журнала и в экран «какая маржа 2П следует из факта 3 кв.»; в правило A-P2u идёт полугодие 2026H2 (годовой отчёт). МСФО за 9 мес. группа не публикует. Первый квартал с «О'КЕЙ» целиком (во 2 кв. — только июнь): эталон «г/г + сдвиг прошлого квартала» — с поправкой на периметр. Релизы с 31.10.2025 выходят в 10:00 МСК — вечерний такт daily их видит. Окно — по лагам релизов того же типа за 2024Q3, 2025Q3 (28, 31 дн. от конца периода); точную дату компания ставит в календарь IR (сборщик раз в неделю, тогда precision: day)."
+   "earliest": "2027-02-03",
+   "latest": "2027-02-12",
+   "title": "Лента: операционные результаты 4 кв. и 2026 года (выручка, LFL, площадь)",
+   "days": 94,
+   "note": "ФАКТ выручки 4 кв. без маржи: первое из двух событий 4 кв. в журнале (D2); маржа 4 кв. и 2П2026 — в годовом отчёте. Окно — по лагам релизов того же типа за 2024Q4, 2025Q4 (36, 40 дн. от конца периода); точную дату компания ставит в календарь IR (сборщик раз в неделю, тогда precision: day)."
   },
   "events": [
-   {
-    "id": "lenta.q3_2026",
-    "when": "2026-10-29",
-    "precision": "window",
-    "earliest": "2026-10-26",
-    "latest": "2026-11-03",
-    "title": "Лента: операционные и финансовые результаты 3 кв. и 9 мес. 2026 (пресс-релиз, датабук)",
-    "days": -5,
-    "gives": [
-     "revenue",
-     "ebitda_margin_pre16",
-     "lfl_ticket",
-     "lfl_traffic",
-     "net_debt",
-     "selling_space",
-     "stores"
-    ],
-    "prior_for": null,
-    "note": "ФАКТ квартала: ближайший отчёт и первая точка нау-каста lenta-margin-v1 и журнала (D2, D15). Маржа 3 кв. — в зачёт журнала и в экран «какая маржа 2П следует из факта 3 кв.»; в правило A-P2u идёт полугодие 2026H2 (годовой отчёт). МСФО за 9 мес. группа не публикует. Первый квартал с «О'КЕЙ» целиком (во 2 кв. — только июнь): эталон «г/г + сдвиг прошлого квартала» — с поправкой на периметр. Релизы с 31.10.2025 выходят в 10:00 МСК — вечерний такт daily их видит. Окно — по лагам релизов того же типа за 2024Q3, 2025Q3 (28, 31 дн. от конца периода); точную дату компания ставит в календарь IR (сборщик раз в неделю, тогда precision: day)."
-   },
    {
     "id": "cbr.summary.2026-11-05",
     "when": "2026-11-05",
@@ -12604,6 +12584,20 @@
     ],
     "prior_for": "lenta.net_interest",
     "note": "Без нового прогноза: миры не пересобираются, если кривая не сдвинулась ≥ 50 б.п. на 5–10 годах (гейт book_update)."
+   },
+   {
+    "id": "moex.index_base_2026-12",
+    "when": "2026-12-18",
+    "precision": "month",
+    "earliest": "2026-12-01",
+    "latest": "2026-12-31",
+    "title": "MOEX: пересмотр баз расчёта индексов (декабрь 2026)",
+    "days": 45,
+    "gives": [
+     "listing_index"
+    ],
+    "prior_for": "valuation.governance_discount",
+    "note": "LENT исключена из IMOEX с 18.09.2026 после перевода в третий уровень листинга (12.08.2026); возврат без возврата в котировальный список маловероятен. Смена уровня листинга (moex_security, LISTLEVEL) — плашка и гейт «пересмотреть g» (D15)."
    }
   ]
  },
@@ -17076,15 +17070,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 16.99,
-       "model_halves": 1,
-       "stores_est": 23.0
-      },
       "droge": {
        "opened_area": 18.09,
        "model_halves": 1,
        "stores_est": 136.0
+      },
+      "super": {
+       "opened_area": 16.99,
+       "model_halves": 1,
+       "stores_est": 23.0
       },
       "conv": {
        "opened_area": 120.04,
@@ -17105,15 +17099,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 26.71,
-       "model_halves": 2,
-       "stores_est": 35.0
-      },
       "droge": {
        "opened_area": 36.2,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "super": {
+       "opened_area": 26.71,
+       "model_halves": 2,
+       "stores_est": 35.0
       },
       "conv": {
        "opened_area": 208.61,
@@ -17134,15 +17128,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 26.72,
-       "model_halves": 2,
-       "stores_est": 35.0
-      },
       "droge": {
        "opened_area": 36.21,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "super": {
+       "opened_area": 26.72,
+       "model_halves": 2,
+       "stores_est": 35.0
       },
       "conv": {
        "opened_area": 204.45,
@@ -17165,15 +17159,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 15.0,
-       "model_halves": 1,
-       "stores_est": 20.0
-      },
       "droge": {
        "opened_area": 15.29,
        "model_halves": 1,
        "stores_est": 115.0
+      },
+      "super": {
+       "opened_area": 15.0,
+       "model_halves": 1,
+       "stores_est": 20.0
       },
       "conv": {
        "opened_area": 113.19,
@@ -17194,15 +17188,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 21.41,
-       "model_halves": 2,
-       "stores_est": 28.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "super": {
+       "opened_area": 21.41,
+       "model_halves": 2,
+       "stores_est": 28.0
       },
       "conv": {
        "opened_area": 186.05,
@@ -17223,15 +17217,15 @@
       "model"
      ],
      "openings": {
-      "super": {
-       "opened_area": 21.42,
-       "model_halves": 2,
-       "stores_est": 28.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "super": {
+       "opened_area": 21.42,
+       "model_halves": 2,
+       "stores_est": 28.0
       },
       "conv": {
        "opened_area": 173.15,
@@ -18368,14 +18362,14 @@
  },
  "changes": {
   "note": "изменение с прошлого выпуска, разложенное по источникам",
-  "previous": "fd1e7316f28e",
+  "previous": "e01c10b617ee",
   "items": [
    {
     "key": "engine",
     "title": "изменение ядра/методики",
     "delta_v0": 0.01,
     "delta_price": 0.3,
-    "note": "код 908d36cefb42 → d1e47e031b1c"
+    "note": "код d1e47e031b1c → 4354054fa2be"
    },
    {
     "key": "valuation_date",
