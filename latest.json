@@ -1,7 +1,7 @@
 {
  "schema": "lenta-v1",
  "meta": {
-  "generated_at": "2026-11-03T14:50:08+00:00",
+  "generated_at": "2026-11-03T17:37:19+00:00",
   "valuation_date": "2026-11-03",
   "facts_date": "2026-06-30",
   "book_version": "1.2",
@@ -22,15 +22,15 @@
   },
   "period_unit": "half",
   "first_period": "2026H2",
-  "payload_sha256": "526b0a4b67707a3d2b7042a2b85c8a7a6fec477200bdadab03cbc3ff0ee31d16",
-  "bytes": 344537,
-  "published_at": "2026-11-03T14:50:18+00:00"
+  "payload_sha256": "fd1e7316f28e24eb98978cc6f96f1cbbcded10c99f864c1cc52878de960e4e28",
+  "bytes": 351850,
+  "published_at": "2026-11-03T17:37:29+00:00"
  },
  "market": {
-  "price": 1848.5,
+  "price": 1946.5,
   "price_date": "2026-11-03",
   "price_convention": "legalclose",
-  "cap": 212.7,
+  "cap": 224.0,
   "peers_same_base": {
    "as_of": "2026-06-30",
    "basis": "EV = капитализация по legal close 18.09.2026 (акции в обращении) + ЧД до МСФО 16 на 30.06.2026 + дивиденды, объявленные до баланса и выплаченные после; EBITDA — IAS 17 LTM на 30.06.2026 (функция 850oa peers.json)",
@@ -39,43 +39,43 @@
     {
      "key": "LENT",
      "title": "Лента",
-     "price": 1848.5,
+     "price": 1946.5,
      "price_date": "2026-11-03",
      "shares_mln": 115.074675,
-     "cap": 212.7,
+     "cap": 224.0,
      "net_debt": 117.411168,
      "dividends_after_balance": 0.0,
-     "ev": 330.1,
+     "ev": 341.4,
      "ebitda_ltm": 88.235,
-     "ev_ebitda": 3.74,
+     "ev_ebitda": 3.87,
      "source": "факты книги: facts.anchor.net_debt, facts.anchor.ebitda_ltm, facts.shares_out_mln",
      "note": ""
     },
     {
      "key": "X5",
      "title": "X5",
-     "price": 2367.5,
+     "price": 2303.0,
      "price_date": "2026-11-03",
      "shares_mln": 245.229303,
-     "cap": 580.6,
+     "cap": 564.8,
      "net_debt": 310.647,
      "dividends_after_balance": 60.081,
-     "ev": 951.3,
+     "ev": 935.5,
      "ebitda_ltm": 287.021,
-     "ev_ebitda": 3.31,
+     "ev_ebitda": 3.26,
      "source": "X5 databook 2026_08 (лист Debt стр. 11; лист EBITDA стр. 22; IAS 17) — транскрипция в magnit-850oa data/facts/peers.json (as_of 30.06.2026); акции 271 572 872 × (1 − 0,097 казначейских)",
      "note": ""
     },
     {
      "key": "MGNT",
      "title": "Магнит",
-     "price": 1797.5,
+     "price": 1799.0,
      "price_date": "2026-11-03",
      "shares_mln": 67.847277,
-     "cap": 122.0,
+     "cap": 122.1,
      "net_debt": 518.1,
      "dividends_after_balance": 0.0,
-     "ev": 640.1,
+     "ev": 640.2,
      "ebitda_ltm": 179.635043,
      "ev_ebitda": 3.56,
      "source": "Magnit Databook 1H 2026 (pnl.pre_ifrs16: EBITDA 2П2025 83,648405 + 1П2026 95,986638; ЧД до МСФО 16 518,1 на 30.06.2026) — транскрипция в magnit-850oa data/facts/history.json и assumptions.yaml facts",
@@ -183,9 +183,9 @@
    "point": 3392.3,
    "printed_point": 3400.0,
    "mean": 3251.1,
-   "market": 1848.5,
-   "p_below_market": 0.0005,
-   "market_percentile": 0.0005,
+   "market": 1946.5,
+   "p_below_market": 0.001,
+   "market_percentile": 0.001,
    "draws": 2000,
    "seed": 20260918,
    "own_macro_confidence": 0.5,
@@ -4489,148 +4489,148 @@
    "by_lambda": [
     {
      "lambda": 0.0,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3218.7,
      "release": false
     },
     {
      "lambda": 0.05,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3221.9,
      "release": false
     },
     {
      "lambda": 0.1,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3225.2,
      "release": false
     },
     {
      "lambda": 0.15,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3228.4,
      "release": false
     },
     {
      "lambda": 0.2,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3231.7,
      "release": false
     },
     {
      "lambda": 0.25,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3234.9,
      "release": false
     },
     {
      "lambda": 0.3,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3238.2,
      "release": false
     },
     {
      "lambda": 0.35,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3241.4,
      "release": false
     },
     {
      "lambda": 0.4,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3244.7,
      "release": false
     },
     {
      "lambda": 0.45,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3247.9,
      "release": false
     },
     {
      "lambda": 0.5,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3251.1,
      "release": true
     },
     {
      "lambda": 0.55,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3254.4,
      "release": false
     },
     {
      "lambda": 0.6,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.001,
+     "market_percentile": 0.001,
      "mean": 3257.6,
      "release": false
     },
     {
      "lambda": 0.65,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3260.9,
      "release": false
     },
     {
      "lambda": 0.7,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3264.1,
      "release": false
     },
     {
      "lambda": 0.75,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3267.4,
      "release": false
     },
     {
      "lambda": 0.8,
-     "p_below_market": 0.0005,
-     "market_percentile": 0.0005,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3270.6,
      "release": false
     },
     {
      "lambda": 0.85,
-     "p_below_market": 0.001,
-     "market_percentile": 0.001,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3273.9,
      "release": false
     },
     {
      "lambda": 0.9,
-     "p_below_market": 0.001,
-     "market_percentile": 0.001,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3277.1,
      "release": false
     },
     {
      "lambda": 0.95,
-     "p_below_market": 0.001,
-     "market_percentile": 0.001,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3280.4,
      "release": false
     },
     {
      "lambda": 1.0,
-     "p_below_market": 0.001,
-     "market_percentile": 0.001,
+     "p_below_market": 0.0015,
+     "market_percentile": 0.0015,
      "mean": 3283.6,
      "release": false
     }
@@ -4639,200 +4639,200 @@
   "ev_first_line": {
    "target": "median",
    "v0": 524.3,
-   "v_star": 352.4,
-   "gap": 0.4877,
+   "v_star": 364.5,
+   "gap": 0.4387,
    "rub_per_1pct_ev": 42.3,
    "own_macro_confidence": 0.5,
    "ebitda_ltm": 88.23,
    "ev_ebitda": 5.94,
-   "ev_ebitda_v_star": 3.99,
-   "p_below_market": 0.0005,
+   "ev_ebitda_v_star": 4.13,
+   "p_below_market": 0.001,
    "layers": {
     "analytical": {
      "title": "аналитические веса миров",
      "v0": 529.2,
-     "v_star": 353.4,
-     "gap": 0.4973
+     "v_star": 365.5,
+     "gap": 0.4479
     },
     "macro_neutral": {
      "title": "при рыночных ставках как есть",
      "v0": 519.9,
-     "v_star": 352.1,
-     "gap": 0.4764
+     "v_star": 364.2,
+     "gap": 0.4273
     }
    },
    "cap_plus_d": {
-    "ev": 337.4,
-    "gap": 0.6208,
-    "ev_ebitda": 3.82,
-    "rub_per_1pct_ev": 29.3
+    "ev": 348.7,
+    "gap": 0.5684,
+    "ev_ebitda": 3.95,
+    "rub_per_1pct_ev": 30.3
    },
    "by_lambda": [
     {
      "lambda": 0.0,
      "v0": 519.9,
-     "v_star": 352.1,
-     "gap": 0.4764,
+     "v_star": 364.2,
+     "gap": 0.4273,
      "rub_per_1pct_ev": 42.1,
      "release": false
     },
     {
      "lambda": 0.05,
      "v0": 520.3,
-     "v_star": 352.2,
-     "gap": 0.4774,
+     "v_star": 364.3,
+     "gap": 0.4282,
      "rub_per_1pct_ev": 42.6,
      "release": false
     },
     {
      "lambda": 0.1,
      "v0": 520.7,
-     "v_star": 352.2,
-     "gap": 0.4786,
+     "v_star": 364.3,
+     "gap": 0.4292,
      "rub_per_1pct_ev": 42.1,
      "release": false
     },
     {
      "lambda": 0.15,
      "v0": 521.2,
-     "v_star": 352.3,
-     "gap": 0.4794,
+     "v_star": 364.3,
+     "gap": 0.4305,
      "rub_per_1pct_ev": 42.7,
      "release": false
     },
     {
      "lambda": 0.2,
      "v0": 521.6,
-     "v_star": 352.4,
-     "gap": 0.4802,
+     "v_star": 364.4,
+     "gap": 0.4313,
      "rub_per_1pct_ev": 42.3,
      "release": false
     },
     {
      "lambda": 0.25,
      "v0": 522.0,
-     "v_star": 352.3,
-     "gap": 0.4815,
+     "v_star": 364.4,
+     "gap": 0.4326,
      "rub_per_1pct_ev": 42.0,
      "release": false
     },
     {
      "lambda": 0.3,
      "v0": 522.4,
-     "v_star": 352.3,
-     "gap": 0.4828,
+     "v_star": 364.4,
+     "gap": 0.4337,
      "rub_per_1pct_ev": 41.7,
      "release": false
     },
     {
      "lambda": 0.35,
      "v0": 522.9,
-     "v_star": 352.4,
-     "gap": 0.4838,
+     "v_star": 364.4,
+     "gap": 0.4348,
      "rub_per_1pct_ev": 42.1,
      "release": false
     },
     {
      "lambda": 0.4,
      "v0": 523.4,
-     "v_star": 352.4,
-     "gap": 0.4852,
+     "v_star": 364.5,
+     "gap": 0.436,
      "rub_per_1pct_ev": 42.3,
      "release": false
     },
     {
      "lambda": 0.45,
      "v0": 523.9,
-     "v_star": 352.4,
-     "gap": 0.4865,
+     "v_star": 364.5,
+     "gap": 0.4372,
      "rub_per_1pct_ev": 42.5,
      "release": false
     },
     {
      "lambda": 0.5,
      "v0": 524.3,
-     "v_star": 352.4,
-     "gap": 0.4877,
+     "v_star": 364.5,
+     "gap": 0.4387,
      "rub_per_1pct_ev": 42.3,
      "release": true
     },
     {
      "lambda": 0.55,
      "v0": 524.8,
-     "v_star": 352.6,
-     "gap": 0.4884,
+     "v_star": 364.5,
+     "gap": 0.4398,
      "rub_per_1pct_ev": 42.6,
      "release": false
     },
     {
      "lambda": 0.6,
      "v0": 525.3,
-     "v_star": 352.7,
-     "gap": 0.4896,
+     "v_star": 364.6,
+     "gap": 0.4407,
      "rub_per_1pct_ev": 42.4,
      "release": false
     },
     {
      "lambda": 0.65,
      "v0": 525.7,
-     "v_star": 352.6,
-     "gap": 0.4909,
+     "v_star": 364.7,
+     "gap": 0.4416,
      "rub_per_1pct_ev": 42.3,
      "release": false
     },
     {
      "lambda": 0.7,
      "v0": 526.1,
-     "v_star": 352.6,
-     "gap": 0.4922,
+     "v_star": 364.7,
+     "gap": 0.4426,
      "rub_per_1pct_ev": 42.4,
      "release": false
     },
     {
      "lambda": 0.75,
      "v0": 526.6,
-     "v_star": 352.7,
-     "gap": 0.4931,
+     "v_star": 364.8,
+     "gap": 0.4433,
      "rub_per_1pct_ev": 42.1,
      "release": false
     },
     {
      "lambda": 0.8,
      "v0": 526.9,
-     "v_star": 352.7,
-     "gap": 0.4938,
+     "v_star": 364.8,
+     "gap": 0.4442,
      "rub_per_1pct_ev": 42.4,
      "release": false
     },
     {
      "lambda": 0.85,
      "v0": 527.3,
-     "v_star": 352.8,
-     "gap": 0.4946,
+     "v_star": 364.9,
+     "gap": 0.4452,
      "rub_per_1pct_ev": 42.8,
      "release": false
     },
     {
      "lambda": 0.9,
      "v0": 527.8,
-     "v_star": 352.9,
-     "gap": 0.4954,
+     "v_star": 365.0,
+     "gap": 0.4461,
      "rub_per_1pct_ev": 43.2,
      "release": false
     },
     {
      "lambda": 0.95,
      "v0": 528.4,
-     "v_star": 353.1,
-     "gap": 0.4964,
+     "v_star": 365.2,
+     "gap": 0.4472,
      "rub_per_1pct_ev": 42.8,
      "release": false
     },
     {
      "lambda": 1.0,
      "v0": 529.2,
-     "v_star": 353.4,
-     "gap": 0.4973,
+     "v_star": 365.5,
+     "gap": 0.4479,
      "rub_per_1pct_ev": 42.9,
      "release": false
     }
@@ -4862,7 +4862,7 @@
   "grid_median": 3248.0,
   "modal_world": "H",
   "modal_world_price": 3013.0,
-  "market": 1848.5,
+  "market": 1946.5,
   "market_percentile": 0.24,
   "p_equity_nonpositive": 0.0,
   "by_world": {
@@ -4871,19 +4871,19 @@
    "M": 3351.0
   },
   "ev_model": 546.8,
-  "ev_market_implied": 337.4,
-  "ev_gap": 0.6208,
-  "rub_per_ev_percent": 29.3,
+  "ev_market_implied": 348.7,
+  "ev_gap": 0.5684,
+  "rub_per_ev_percent": 30.3,
   "p10": 1063.0,
   "p90": 5921.0,
   "ev_comparison": {
    "layer": "analytical",
    "ev_model": 546.8,
-   "ev_market_implied": 337.4,
-   "gap": 0.6208,
+   "ev_market_implied": 348.7,
+   "gap": 0.5684,
    "ebitda_ltm": 88.23,
    "ev_ebitda_model": 6.2,
-   "ev_ebitda_market": 3.82
+   "ev_ebitda_market": 3.95
   },
   "judgement_spread": {
    "low": 2821.0,
@@ -6926,17 +6926,13 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
+   "period": "2026-11-03",
    "value": 0.14,
    "note": "",
-   "points": 3292,
+   "points": 3293,
    "tile": true,
    "reference_only": false,
    "history": [
-    [
-     "2025-11-01",
-     0.165
-    ],
     [
      "2025-11-03",
      0.165
@@ -7948,6 +7944,10 @@
     [
      "2026-11-02",
      0.14
+    ],
+    [
+     "2026-11-03",
+     0.14
     ]
    ]
   },
@@ -7959,9 +7959,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.1875,
+   "value": 0.1738,
    "note": "О'КЕЙ Б1Р2, погашение 2029-04-06",
-   "points": 60,
+   "points": 61,
    "tile": true,
    "reference_only": true,
    "history": [
@@ -8103,7 +8103,7 @@
     ],
     [
      "2026-11-03",
-     0.1875
+     0.1738
     ]
    ]
   },
@@ -8115,9 +8115,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.1811,
+   "value": 0.1818,
    "note": "О'КЕЙ Б1Р4, погашение 2030-10-25",
-   "points": 58,
+   "points": 59,
    "tile": true,
    "reference_only": true,
    "history": [
@@ -8259,7 +8259,7 @@
     ],
     [
      "2026-11-03",
-     0.1811
+     0.1818
     ]
    ]
   },
@@ -8271,9 +8271,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.1878,
+   "value": 0.1875,
    "note": "О'КЕЙ Б1Р6, погашение 2034-03-07, оферта 2027-03-17",
-   "points": 62,
+   "points": 63,
    "tile": true,
    "reference_only": true,
    "history": [
@@ -8415,7 +8415,7 @@
     ],
     [
      "2026-11-03",
-     0.1878
+     0.1875
     ]
    ]
   },
@@ -8427,9 +8427,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.1892,
+   "value": 0.1769,
    "note": "О'КЕЙ Б1Р8, погашение 2028-07-28, оферта 2027-02-09",
-   "points": 59,
+   "points": 60,
    "tile": true,
    "reference_only": true,
    "history": [
@@ -8571,7 +8571,7 @@
     ],
     [
      "2026-11-03",
-     0.1892
+     0.1769
     ]
    ]
   },
@@ -8583,9 +8583,9 @@
    "group_title": "Рынок и ставки",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 1848.5,
+   "value": 1946.5,
    "note": "",
-   "points": 62,
+   "points": 63,
    "tile": true,
    "reference_only": false,
    "history": [
@@ -8711,7 +8711,7 @@
     ],
     [
      "2026-11-03",
-     1848.5
+     1946.5
     ]
    ]
   },
@@ -8878,10 +8878,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.165393,
+   "period": "2026-11-03",
+   "value": 0.16455,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": true,
    "reference_only": false,
    "history": [
@@ -8980,6 +8980,10 @@
     [
      "2026-11-02",
      0.165393
+    ],
+    [
+     "2026-11-03",
+     0.16455
     ]
    ]
   },
@@ -9463,9 +9467,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.8535,
+   "value": 0.8751,
    "note": "О'КЕЙ Б1Р2, погашение 2029-04-06",
-   "points": 39,
+   "points": 40,
    "tile": false,
    "reference_only": true
   },
@@ -9476,10 +9480,10 @@
    "group": "bonds",
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.7979,
+   "period": "2026-11-03",
+   "value": 0.7965,
    "note": "О'КЕЙ Б1Р4, погашение 2030-10-25",
-   "points": 37,
+   "points": 38,
    "tile": false,
    "reference_only": true
   },
@@ -9491,9 +9495,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.9936,
+   "value": 0.9937,
    "note": "О'КЕЙ Б1Р6, погашение 2034-03-07, оферта 2027-03-17",
-   "points": 45,
+   "points": 46,
    "tile": false,
    "reference_only": true
   },
@@ -9505,9 +9509,9 @@
    "group_title": "Облигации группы («О'КЕЙ»)",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.9986,
+   "value": 1.0013,
    "note": "О'КЕЙ Б1Р8, погашение 2028-07-28, оферта 2027-02-09",
-   "points": 45,
+   "points": 46,
    "tile": false,
    "reference_only": true
   },
@@ -9533,9 +9537,9 @@
    "group_title": "Рынок и ставки",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 0.0902,
-   "note": "сделка 2026-11-03 07:04:19 МСК",
-   "points": 57,
+   "value": 0.0891,
+   "note": "сделка 2026-11-03 20:03:23 МСК",
+   "points": 58,
    "tile": false,
    "reference_only": false
   },
@@ -9546,10 +9550,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.0732,
-   "note": "сделка 2026-11-02 23:59:59 МСК",
-   "points": 53,
+   "period": "2026-11-03",
+   "value": 0.0725,
+   "note": "сделка 2026-11-03 20:06:56 МСК",
+   "points": 54,
    "tile": false,
    "reference_only": false
   },
@@ -9560,10 +9564,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.0636,
-   "note": "сделка 2026-11-02 23:59:59 МСК",
-   "points": 47,
+   "period": "2026-11-03",
+   "value": 0.0633,
+   "note": "сделка 2026-11-03 20:04:48 МСК",
+   "points": 48,
    "tile": false,
    "reference_only": false
   },
@@ -9574,10 +9578,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.0599,
-   "note": "сделка 2026-11-02 23:59:59 МСК",
-   "points": 54,
+   "period": "2026-11-03",
+   "value": 0.0579,
+   "note": "сделка 2026-11-03 20:04:20 МСК",
+   "points": 55,
    "tile": false,
    "reference_only": false
   },
@@ -9589,9 +9593,9 @@
    "group_title": "Рынок и ставки",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 1797.5,
+   "value": 1799.0,
    "note": "",
-   "points": 67,
+   "points": 68,
    "tile": false,
    "reference_only": true
   },
@@ -9603,9 +9607,9 @@
    "group_title": "Рынок и ставки",
    "channel": 1,
    "period": "2026-11-03",
-   "value": 2367.5,
+   "value": 2303.0,
    "note": "",
-   "points": 67,
+   "points": 68,
    "tile": false,
    "reference_only": true
   },
@@ -9630,10 +9634,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.132206,
+   "period": "2026-11-03",
+   "value": 0.131857,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9644,10 +9648,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.135641,
+   "period": "2026-11-03",
+   "value": 0.136038,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9658,10 +9662,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.138702,
+   "period": "2026-11-03",
+   "value": 0.139635,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9672,10 +9676,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.166802,
+   "period": "2026-11-03",
+   "value": 0.165428,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9686,10 +9690,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.141449,
+   "period": "2026-11-03",
+   "value": 0.142744,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9700,10 +9704,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.167421,
+   "period": "2026-11-03",
+   "value": 0.16588,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9714,10 +9718,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.14982,
+   "period": "2026-11-03",
+   "value": 0.151572,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9728,10 +9732,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.15509,
+   "period": "2026-11-03",
+   "value": 0.156684,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9742,10 +9746,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.160723,
+   "period": "2026-11-03",
+   "value": 0.161445,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -9756,10 +9760,10 @@
    "group": "market",
    "group_title": "Рынок и ставки",
    "channel": 1,
-   "period": "2026-11-02",
-   "value": 0.163401,
+   "period": "2026-11-03",
+   "value": 0.163316,
    "note": "",
-   "points": 27,
+   "points": 28,
    "tile": false,
    "reference_only": false
   },
@@ -10347,31 +10351,31 @@
    "lenta.revenue_pre16": "выручка до МСФО 16",
    "lenta.net_interest": "чистые процентные расходы"
   },
-  "target_quarter": "2026Q3",
+  "target_quarter": "2026Q4",
   "margin": {
-   "period": "2026Q3",
-   "value": 0.06187,
+   "period": "2026Q4",
+   "value": 0.06301,
    "std_error": 0.0099,
-   "expectation": 0.06187,
+   "expectation": 0.06301,
    "expectation_se": 0.0099,
    "deviation": 0.0,
    "half": "2026H2",
    "half_value": 0.06249,
    "half_std_error": 0.007,
-   "revenue": 350.89,
+   "revenue": 416.92,
    "equation": "маржа квартала = ожидание модели (маржа полугодия ядра: цели режимов, взвешенные вероятностями книги, и затухающее отклонение внесённого факта) + квартальная поправка книги",
    "version": "lenta-margin-v1",
    "source": "model.quarters.expected_quarter",
    "connected_to_price": false,
    "components": {
     "base": 0.062489,
-    "quarter_offset": -0.00062
+    "quarter_offset": 0.000522
    },
    "inputs": {
-    "expectation": 0.061869,
+    "expectation": 0.063011,
     "half_margin": 0.062489,
-    "offset_pp": -0.00062,
-    "share": 0.457,
+    "offset_pp": 0.000522,
+    "share": 0.543,
     "source": "model.quarters.expected_quarter"
    }
   },
@@ -10382,7 +10386,12 @@
    "quarter_expectation": 0.06187,
    "second_quarter_expectation": 0.06301,
    "quarter_offset": -0.00062,
-   "fact": null,
+   "fact": {
+    "value": 0.0614,
+    "implied_persistent": 0.06202,
+    "implied_independent": 0.06228,
+    "surprise": -0.00046
+   },
    "table": [
     {
      "quarter_fact": 0.04938,
@@ -10460,8 +10469,8 @@
    "fy_margin_min": 0.07,
    "required_half": "2026H2",
    "required_half_margin": 0.07796,
-   "quarter": "2026Q3",
-   "quarter_benchmark": 0.07734,
+   "quarter": "2026Q4",
+   "quarter_benchmark": 0.07849,
    "half_of_quarter": "2026H2",
    "source": "релиз 02.06.2026: рентабельность EBITDA за 2026 год не менее 7 % (data/facts/anchor.json → guidance_2026)"
   },
@@ -10504,15 +10513,6 @@
      }
     ],
     "broken_ahead": [
-     {
-      "quarter": "2026Q3",
-      "deals": [
-       "molniya",
-       "remi",
-       "domlenta",
-       "okey"
-      ]
-     },
      {
       "quarter": "2026Q4",
       "deals": [
@@ -12161,31 +12161,31 @@
    }
   },
   "interest": {
-   "period": "2026Q3",
-   "net_interest": 4.16,
-   "debt_interest": 4.86,
-   "cash_income": 0.69,
+   "period": "2026Q4",
+   "net_interest": 3.81,
+   "debt_interest": 4.85,
+   "cash_income": 1.04,
    "average_debt": 141.9,
-   "average_cash": 32.7,
-   "average_key_rate": 0.14071,
-   "effective_rate": 0.13578,
-   "implied_spread": -0.00492,
+   "average_cash": 49.2,
+   "average_key_rate": 0.14,
+   "effective_rate": 0.1356,
+   "implied_spread": -0.0044,
    "opening_gross_debt": 141.9,
-   "redemptions_count": 0,
+   "redemptions_count": 1,
    "redemptions_done": 0,
-   "redemptions_ahead": 0,
+   "redemptions_ahead": 1,
    "redemptions_done_amount": 0,
-   "redemptions_ahead_amount": 0,
-   "redemptions_note": "Погашений внутри периода по реестру нет",
+   "redemptions_ahead_amount": 30.7,
+   "redemptions_note": "Погашений на дату оценки ещё не было, впереди одно до конца периода (30,7 млрд ₽)",
    "main_benchmark": "previous_period_scaled_by_rates",
    "floating_share": 0.2607,
    "by_kind": {
-    "bank": 3.81,
+    "bank": 3.8,
     "other": 0.77,
     "bond": 0.28
    },
    "naive": {
-    "previous_period_scaled_by_rates": 3.2
+    "previous_period_scaled_by_rates": 5.06
    },
    "accuracy": 0.08,
    "survey_delta": null
@@ -12234,12 +12234,207 @@
     "std_error": null,
     "note": "отчёт ≈2026-10-29",
     "inputs_sha": "8acf354e39245e26"
+   },
+   {
+    "target": "lenta.ebitda_margin_pre16",
+    "period": "2026Q4",
+    "value": 0.06301,
+    "made_at": "2026-11-03T17:25:17+00:00",
+    "version": "lenta-margin-v1",
+    "equation": "маржа квартала = ожидание модели (маржа полугодия ядра: цели режимов, взвешенные вероятностями книги, и затухающее отклонение внесённого факта) + квартальная поправка книги",
+    "std_error": 0.0099,
+    "note": "зафиксирован до выхода отчёта за 2026Q4",
+    "inputs_sha": "dc2ec315bba65ec6"
+   },
+   {
+    "target": "lenta.net_interest",
+    "period": "2026Q4",
+    "value": 3.80979,
+    "made_at": "2026-11-03T17:25:17+00:00",
+    "version": "interest-v1",
+    "equation": "реестр долга x ключевая + спред",
+    "std_error": 0.30478,
+    "note": "",
+    "inputs_sha": "2f909ecb5e5860a8"
+   },
+   {
+    "target": "lenta.revenue_pre16",
+    "period": "2026Q4",
+    "value": 416.92246,
+    "made_at": "2026-11-03T17:25:17+00:00",
+    "version": "lenta-revenue-v1",
+    "equation": "выручка полугодия ядра × доля квартала книги",
+    "std_error": null,
+    "note": "отчёт ≈2027-02-05",
+    "inputs_sha": "32fa1bae805a6b31"
    }
   ],
   "scoreboard": {
-   "lenta.ebitda_margin_pre16": [],
-   "lenta.revenue_pre16": [],
-   "lenta.net_interest": []
+   "lenta.ebitda_margin_pre16": [
+    {
+     "period": "2026Q3",
+     "target": "lenta.ebitda_margin_pre16",
+     "actual": 0.0614045341,
+     "reported_on": "2026-10-30",
+     "scoring_horizon_days": 45,
+     "scoring_rule": null,
+     "horizons": {
+      "90": null,
+      "45": null,
+      "15": {
+       "made_at": "2026-09-30T08:16:17+00:00",
+       "value": 0.061869,
+       "std_error": 0.009899494936611667,
+       "version": "lenta-margin-v1",
+       "equation": "маржа квартала = ожидание модели (маржа полугодия ядра: цели режимов, взвешенные вероятностями книги, и затухающее отклонение внесённого факта) + квартальная поправка книги",
+       "error": 0.0004644659000000023,
+       "abs_error": 0.0004644659000000023,
+       "benchmark": "yoy_plus_shift",
+       "benchmark_value": 0.05642611493437645,
+       "benchmark_abs_error": 0.004978419165623547,
+       "beats_benchmark": true
+      }
+     },
+     "last_word": {
+      "made_at": "2026-09-30T08:16:17+00:00",
+      "value": 0.061869,
+      "version": "lenta-margin-v1",
+      "error": 0.0004644659000000023,
+      "abs_error": 0.0004644659000000023
+     },
+     "perimeter_breaks": [
+      "molniya",
+      "remi",
+      "domlenta",
+      "okey"
+     ],
+     "admission_excluded": true,
+     "made_at": null,
+     "equation": null,
+     "version": null,
+     "forecast": null,
+     "error": null,
+     "abs_error": null,
+     "beats_benchmark": null,
+     "note": "прогноза за 45 дней до отчёта не было: первый записан 2026-09-30; разрыв периметра главного эталона («Молния» (Spar, Челябинск; 72 магазина), «Реми» (67 %, Дальний Восток), «Дом Лента» (бывш. OBI Россия), гипермаркеты «О'КЕЙ» (75)) — в счёт допуска не идёт",
+     "main_benchmark": "yoy_plus_shift",
+     "naive_yoy_plus_shift_error": 0.004978419165623547,
+     "naive_yoy_plus_shift": 0.05642611493437645,
+     "naive_seasonal_naive_error": 0.011906519192661037,
+     "naive_seasonal_naive": 0.07331105329266104,
+     "naive_last_period_error": 0.005525927009242891,
+     "naive_last_period": 0.06693046110924289,
+     "naive_mean_of_year_error": 0.006845333014862141,
+     "naive_mean_of_year": 0.06824986711486214,
+     "naive_model_expectation_error": 0.0004644659000000023,
+     "naive_model_expectation": 0.061869,
+     "naive_guidance_error": 0.015940737617962462,
+     "naive_guidance": 0.07734527171796246
+    }
+   ],
+   "lenta.revenue_pre16": [
+    {
+     "period": "2026Q3",
+     "target": "lenta.revenue_pre16",
+     "actual": 359.321649,
+     "reported_on": "2026-10-30",
+     "scoring_horizon_days": 45,
+     "scoring_rule": null,
+     "horizons": {
+      "90": null,
+      "45": null,
+      "15": {
+       "made_at": "2026-09-30T08:16:17+00:00",
+       "value": 350.82518944185176,
+       "std_error": null,
+       "version": "lenta-revenue-v1",
+       "equation": "выручка полугодия ядра × доля квартала книги",
+       "error": -8.496459558148217,
+       "abs_error": 8.496459558148217,
+       "benchmark": "yoy_growth_carried",
+       "benchmark_value": 344.5896182578757,
+       "benchmark_abs_error": 14.732030742124266,
+       "beats_benchmark": true
+      }
+     },
+     "last_word": {
+      "made_at": "2026-09-30T08:16:17+00:00",
+      "value": 350.82518944185176,
+      "version": "lenta-revenue-v1",
+      "error": -8.496459558148217,
+      "abs_error": 8.496459558148217
+     },
+     "perimeter_breaks": [
+      "molniya",
+      "remi",
+      "domlenta",
+      "okey"
+     ],
+     "admission_excluded": true,
+     "made_at": null,
+     "equation": null,
+     "version": null,
+     "forecast": null,
+     "error": null,
+     "abs_error": null,
+     "beats_benchmark": null,
+     "note": "прогноза за 45 дней до отчёта не было: первый записан 2026-09-30; разрыв периметра главного эталона («Молния» (Spar, Челябинск; 72 магазина), «Реми» (67 %, Дальний Восток), «Дом Лента» (бывш. OBI Россия), гипермаркеты «О'КЕЙ» (75)) — в счёт допуска не идёт",
+     "main_benchmark": "yoy_growth_carried",
+     "naive_yoy_growth_carried_error": 14.732030742124266,
+     "naive_yoy_growth_carried": 344.5896182578757,
+     "naive_seasonal_naive_error": 91.81764899999996,
+     "naive_seasonal_naive": 267.504
+    }
+   ],
+   "lenta.net_interest": [
+    {
+     "period": "2026Q3",
+     "target": "lenta.net_interest",
+     "actual": 5.09,
+     "reported_on": "2026-10-30",
+     "scoring_horizon_days": 45,
+     "scoring_rule": null,
+     "horizons": {
+      "90": null,
+      "45": null,
+      "15": {
+       "made_at": "2026-09-30T08:16:17+00:00",
+       "value": 4.162686308558626,
+       "std_error": 0.3330149046846901,
+       "version": "interest-v1",
+       "equation": "реестр долга x ключевая + спред",
+       "error": -0.9273136914413742,
+       "abs_error": 0.9273136914413742,
+       "benchmark": "previous_period_scaled_by_rates",
+       "benchmark_value": 3.200471777125917,
+       "benchmark_abs_error": 1.889528222874083,
+       "beats_benchmark": true
+      }
+     },
+     "last_word": {
+      "made_at": "2026-09-30T08:16:17+00:00",
+      "value": 4.162686308558626,
+      "version": "interest-v1",
+      "error": -0.9273136914413742,
+      "abs_error": 0.9273136914413742
+     },
+     "perimeter_breaks": [
+      "okey"
+     ],
+     "admission_excluded": true,
+     "made_at": null,
+     "equation": null,
+     "version": null,
+     "forecast": null,
+     "error": null,
+     "abs_error": null,
+     "beats_benchmark": null,
+     "note": "прогноза за 45 дней до отчёта не было: первый записан 2026-09-30; разрыв периметра главного эталона (гипермаркеты «О'КЕЙ» (75)) — в счёт допуска не идёт",
+     "main_benchmark": "previous_period_scaled_by_rates",
+     "naive_previous_period_scaled_by_rates_error": 1.889528222874083,
+     "naive_previous_period_scaled_by_rates": 3.200471777125917
+    }
+   ]
   },
   "naive": {
    "lenta.ebitda_margin_pre16 2026H2": {
@@ -12247,7 +12442,7 @@
     "main": null,
     "naive": {
      "model_expectation": 0.06249,
-     "guidance": 0.07797
+     "guidance": 0.07796
     }
    },
    "lenta.ebitda_margin_pre16 2026Q3": {
@@ -12275,6 +12470,33 @@
     "naive": {
      "yoy_growth_carried": 344.58962,
      "seasonal_naive": 267.504
+    }
+   },
+   "lenta.ebitda_margin_pre16 2026Q4": {
+    "forecast": 0.06301,
+    "main": "yoy_plus_shift",
+    "naive": {
+     "yoy_plus_shift": 0.06736,
+     "seasonal_naive": 0.07927,
+     "last_period": 0.0614,
+     "mean_of_year": 0.06527,
+     "model_expectation": 0.06301,
+     "guidance": 0.07849
+    }
+   },
+   "lenta.net_interest 2026Q4": {
+    "forecast": 3.80979,
+    "main": "previous_period_scaled_by_rates",
+    "naive": {
+     "previous_period_scaled_by_rates": 5.06444
+    }
+   },
+   "lenta.revenue_pre16 2026Q4": {
+    "forecast": 416.92246,
+    "main": "yoy_growth_carried",
+    "naive": {
+     "yoy_growth_carried": 432.82634,
+     "seasonal_naive": 322.226
     }
    }
   }
@@ -13765,7 +13987,7 @@
     },
     "basis": "EV/EBITDA LTM клеток «дно» и «частичная сходимость», коридор по мирам ставок (мир N выше: ниже реальная ставка). Основание — история «Ленты» на конец года по ценам MOEX и аналоги на одной базе IAS 17 (лист «Оценка»); цен истории в фактах выпуска нет, поэтому рядом печатается нынешний мультипликатор «Ленты» на той же базе (`market.peers_same_base`).",
     "history": {
-     "current": 3.74,
+     "current": 3.87,
      "current_date": "2026-11-03",
      "basis": "EV/EBITDA LTM эмитента на одной базе с аналогами (`market.peers_same_base`)"
     }
@@ -16853,20 +17075,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 18.09,
+      "super": {
+       "opened_area": 16.99,
        "model_halves": 1,
-       "stores_est": 136.0
+       "stores_est": 23.0
       },
       "conv": {
        "opened_area": 120.04,
        "model_halves": 1,
        "stores_est": 478.0
       },
-      "super": {
-       "opened_area": 16.99,
+      "droge": {
+       "opened_area": 18.09,
        "model_halves": 1,
-       "stores_est": 23.0
+       "stores_est": 136.0
       }
      }
     },
@@ -16882,20 +17104,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 36.2,
+      "super": {
+       "opened_area": 26.71,
        "model_halves": 2,
-       "stores_est": 273.0
+       "stores_est": 35.0
       },
       "conv": {
        "opened_area": 208.61,
        "model_halves": 2,
        "stores_est": 831.0
       },
-      "super": {
-       "opened_area": 26.71,
+      "droge": {
+       "opened_area": 36.2,
        "model_halves": 2,
-       "stores_est": 35.0
+       "stores_est": 273.0
       }
      }
     },
@@ -16911,20 +17133,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 36.21,
+      "super": {
+       "opened_area": 26.72,
        "model_halves": 2,
-       "stores_est": 273.0
+       "stores_est": 35.0
       },
       "conv": {
        "opened_area": 204.45,
        "model_halves": 2,
        "stores_est": 815.0
       },
-      "super": {
-       "opened_area": 26.72,
+      "droge": {
+       "opened_area": 36.21,
        "model_halves": 2,
-       "stores_est": 35.0
+       "stores_est": 273.0
       }
      }
     }
@@ -16942,20 +17164,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 15.29,
+      "super": {
+       "opened_area": 15.0,
        "model_halves": 1,
-       "stores_est": 115.0
+       "stores_est": 20.0
       },
       "conv": {
        "opened_area": 113.19,
        "model_halves": 1,
        "stores_est": 451.0
       },
-      "super": {
-       "opened_area": 15.0,
+      "droge": {
+       "opened_area": 15.29,
        "model_halves": 1,
-       "stores_est": 20.0
+       "stores_est": 115.0
       }
      }
     },
@@ -16971,20 +17193,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 30.46,
+      "super": {
+       "opened_area": 21.41,
        "model_halves": 2,
-       "stores_est": 230.0
+       "stores_est": 28.0
       },
       "conv": {
        "opened_area": 186.05,
        "model_halves": 2,
        "stores_est": 741.0
       },
-      "super": {
-       "opened_area": 21.41,
+      "droge": {
+       "opened_area": 30.46,
        "model_halves": 2,
-       "stores_est": 28.0
+       "stores_est": 230.0
       }
      }
     },
@@ -17000,20 +17222,20 @@
       "model"
      ],
      "openings": {
-      "droge": {
-       "opened_area": 30.46,
+      "super": {
+       "opened_area": 21.42,
        "model_halves": 2,
-       "stores_est": 230.0
+       "stores_est": 28.0
       },
       "conv": {
        "opened_area": 173.15,
        "model_halves": 2,
        "stores_est": 690.0
       },
-      "super": {
-       "opened_area": 21.42,
+      "droge": {
+       "opened_area": 30.46,
        "model_halves": 2,
-       "stores_est": 28.0
+       "stores_est": 230.0
       }
      }
     }
@@ -18133,7 +18355,7 @@
   "book_version": "1.2",
   "facts_date": "2026-06-30",
   "valuation_date": "2026-11-03",
-  "market_price": 1848.5,
+  "market_price": 1946.5,
   "curve": {
    "1": 0.1406,
    "3": 0.1551,
@@ -18145,14 +18367,14 @@
  },
  "changes": {
   "note": "изменение с прошлого выпуска, разложенное по источникам",
-  "previous": "a097359c6be3",
+  "previous": "526b0a4b6770",
   "items": [
    {
-    "key": "engine",
-    "title": "изменение ядра/методики",
+    "key": "residual",
+    "title": "прочее (взаимодействие шагов)",
     "delta_v0": 0.01,
     "delta_price": 0.3,
-    "note": "код a25520c26e70 → 908d36cefb42"
+    "note": "книга, факты и код те же — остаток расчёта"
    },
    {
     "key": "valuation_date",
@@ -18183,58 +18405,58 @@
  },
  "live": {
   "applied": {
-   "price": "1848 ₽ на 2026-11-03",
-   "curve_observed": "11 узлов ЦБ на 2026-11-02 — наблюдение для диагностики; в оценку идёт кривая книги",
-   "ofz_in_observed": "4 из 4 выпусков ОФЗ-ИН на 2026-11-02 — наблюдение для пересборки миров; в оценку не идёт"
+   "price": "1946 ₽ на 2026-11-03",
+   "curve_observed": "11 узлов ЦБ на 2026-11-03 — наблюдение для диагностики; в оценку идёт кривая книги",
+   "ofz_in_observed": "4 из 4 выпусков ОФЗ-ИН на 2026-11-03 — наблюдение для пересборки миров; в оценку не идёт"
   },
   "degraded": [],
   "degraded_flag": false,
   "observed_curve": {
-   "0.25": 0.132206,
-   "0.5": 0.135641,
-   "0.75": 0.138702,
-   "1": 0.141449,
-   "2": 0.14981999999999998,
-   "3": 0.15509,
-   "5": 0.16072299999999998,
-   "7": 0.163401,
-   "10": 0.165393,
-   "15": 0.166802,
-   "20": 0.16742100000000001
+   "0.25": 0.131857,
+   "0.5": 0.136038,
+   "0.75": 0.139635,
+   "1": 0.142744,
+   "2": 0.15157199999999998,
+   "3": 0.156684,
+   "5": 0.161445,
+   "7": 0.16331600000000002,
+   "10": 0.16454999999999997,
+   "15": 0.165428,
+   "20": 0.16588
   },
-  "observed_curve_date": "2026-11-02",
+  "observed_curve_date": "2026-11-03",
   "curve_shift": {
-   "1": 0.0008489999999999887,
-   "3": -9.999999999982245e-06,
-   "5": -0.00017700000000001048,
-   "10": 0.0004930000000000212
+   "1": 0.002144000000000007,
+   "3": 0.001584000000000002,
+   "5": 0.0005450000000000177,
+   "10": -0.00035000000000001696
   },
   "curve_reference": {
-   "0.25": 0.132206,
-   "0.5": 0.135641,
-   "0.75": 0.138702,
-   "1": 0.141449,
-   "2": 0.14981999999999998,
-   "3": 0.15509,
-   "5": 0.16072299999999998,
-   "7": 0.163401,
-   "10": 0.165393,
-   "15": 0.166802,
-   "20": 0.16742100000000001
+   "0.25": 0.131857,
+   "0.5": 0.136038,
+   "0.75": 0.139635,
+   "1": 0.142744,
+   "2": 0.15157199999999998,
+   "3": 0.156684,
+   "5": 0.161445,
+   "7": 0.16331600000000002,
+   "10": 0.16454999999999997,
+   "15": 0.165428,
+   "20": 0.16588
   },
-  "curve_reference_date": "2026-11-02",
+  "curve_reference_date": "2026-11-03",
   "book_date": "2026-10-28",
   "book_age_days": 6,
   "book_valuation_date": "2026-09-18",
-  "price_reference": 1848.5,
+  "price_reference": 1946.5,
   "price_reference_date": "2026-11-03",
   "observed_ofz_in": {
-   "SU52002RMFS1": 0.0888,
-   "SU52003RMFS9": 0.0732,
-   "SU52004RMFS7": 0.0636,
-   "SU52005RMFS4": 0.0599
+   "SU52002RMFS1": 0.0891,
+   "SU52003RMFS9": 0.0725,
+   "SU52004RMFS7": 0.0633,
+   "SU52005RMFS4": 0.0579
   },
-  "observed_ofz_in_date": "2026-11-02",
+  "observed_ofz_in_date": "2026-11-03",
   "observed_ofz_in_missing": {},
   "security": {
    "listlevel": 3.0,
@@ -18288,7 +18510,7 @@
   }
  ],
  "reverse_dcf": {
-  "market": 1848.5,
+  "market": 1946.5,
   "valuation_date": "2026-11-03",
   "target": "median",
   "draws": 200,
@@ -18325,13 +18547,13 @@
     "kind": "shift",
     "unit": "pp",
     "book_value": 0.0,
-    "value": -0.016081,
+    "value": -0.014879,
     "range": [
      -0.006,
      0.004
     ],
     "inside_range": false,
-    "point_value": -0.017352
+    "point_value": -0.016259
    },
    {
     "name": "Сходимость приобретённого периметра (сдвиг целей «частичного» и «полного» 2029+)",
@@ -18374,13 +18596,13 @@
     "kind": "shift",
     "unit": "pp",
     "book_value": 0.0,
-    "value": 0.00984,
+    "value": 0.00917,
     "range": [
      -0.004,
      0.004
     ],
     "inside_range": false,
-    "point_value": 0.010779
+    "point_value": 0.010107
    },
    {
     "name": "Темп открытий «у дома» (множитель)",
@@ -18426,13 +18648,13 @@
     "kind": "shift",
     "unit": "pp",
     "book_value": 0.0,
-    "value": -0.023395,
+    "value": -0.021479,
     "range": [
      -0.005,
      0.005
     ],
     "inside_range": false,
-    "point_value": -0.025085
+    "point_value": -0.02311
    },
    {
     "name": "Сближение плотности «О'КЕЙ» (сдвиг годовых сдвигов 2027–2029)",
@@ -18475,13 +18697,13 @@
     "kind": "value",
     "unit": "pct",
     "book_value": -0.0304,
-    "value": 0.042637,
+    "value": 0.037995,
     "range": [
      -0.0354,
      -0.0254
     ],
     "inside_range": false,
-    "point_value": 0.037773
+    "point_value": 0.033153
    },
    {
     "name": "Целевой рычаг",
@@ -18507,13 +18729,13 @@
     "kind": "value",
     "unit": "number",
     "book_value": 0.52,
-    "value": 1.572783,
+    "value": 1.470544,
     "range": [
      0.45,
      0.7
     ],
     "inside_range": false,
-    "point_value": 1.471173
+    "point_value": 1.380032
    },
    {
     "name": "ERP",
@@ -18523,13 +18745,13 @@
     "kind": "value",
     "unit": "pct",
     "book_value": 0.0557,
-    "value": 0.163734,
+    "value": 0.152721,
     "range": [
      0.049,
      0.068
     ],
     "inside_range": false,
-    "point_value": 0.157585
+    "point_value": 0.147823
    },
    {
     "name": "Дисконт за управление",
@@ -18539,13 +18761,13 @@
     "kind": "value",
     "unit": "pct",
     "book_value": 0.06415,
-    "value": 0.510562,
+    "value": 0.481164,
     "range": [
      0.0,
      0.14
     ],
     "inside_range": false,
-    "point_value": 0.490044
+    "point_value": 0.463008
    },
    {
     "name": "Инфляция мира M (сдвиг)",
