@@ -1,11 +1,11 @@
 {
  "schema": "lenta-v1",
  "meta": {
-  "generated_at": "2026-11-04T17:51:05+00:00",
+  "generated_at": "2026-11-04T18:54:40+00:00",
   "valuation_date": "2026-11-04",
   "facts_date": "2026-06-30",
   "book_version": "1.2",
-  "engine_commit": "3ce042498a8378a94f6c54a974f18dd89090ee2e",
+  "engine_commit": "9367d19b9d036bd513150e0538295fd40693aaef",
   "horizon": [
    "2026H2",
    "2036H2"
@@ -22,9 +22,9 @@
   },
   "period_unit": "half",
   "first_period": "2026H2",
-  "payload_sha256": "08ee55af7c6107388cd9fdc7cf5d8ce764ab9b07c324762883e22e9aabd9d7f3",
-  "bytes": 350965,
-  "published_at": "2026-11-04T17:51:15+00:00"
+  "payload_sha256": "78c6d9b7c5d3501b656e6ae0b17491506ff9d91c621be01c1a9be193b3497c38",
+  "bytes": 351003,
+  "published_at": "2026-11-04T18:54:49+00:00"
  },
  "market": {
   "price": 1931.5,
@@ -12980,7 +12980,7 @@
    "spread": 208.0,
    "price_low": 3320.0,
    "price_high": 3528.0,
-   "source": "МАКРО-МИРЫ (A-M1…A-M7). D6: дословная копия общей записи миров 28.10.2026 (worlds_source.json sha256 1e905cb7…; до 1.2 — 18.09.2026, 7296567d…); блок пишет build_assumptions.py.. Одна траектория мира питает чек, индексацию capex, купоны плавающего долга, доход на кассу и дисконт. Миры не смешивать."
+   "source": "МАКРО-МИРЫ (A-M1…A-M7). D6: дословная копия общей записи миров (worlds_source.json; версия миров, дата снимка и sha256 — worlds_state.json, пишет ops/tools/adopt_worlds.py); блок пишет build_assumptions.py.. Одна траектория мира питает чек, индексацию capex, купоны плавающего долга, доход на кассу и дисконт. Миры не смешивать."
   },
   {
    "key": "revenue.segments.conv.space.low.gross_open",
@@ -13265,7 +13265,7 @@
    "spread": 59.0,
    "price_low": 3352.0,
    "price_high": 3410.0,
-   "source": "A-P1 (C): = worlds_source.json → probabilities; диапазоны записи 25–40 / 40–50 / 15–25"
+   "source": "A-P1 (C): = worlds_source.json → probabilities; диапазоны — probability_ranges записи"
   },
   {
    "key": "capex.maintenance_area_share",
@@ -17117,15 +17117,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 120.04,
-       "model_halves": 1,
-       "stores_est": 478.0
-      },
       "droge": {
        "opened_area": 18.09,
        "model_halves": 1,
        "stores_est": 136.0
+      },
+      "conv": {
+       "opened_area": 120.04,
+       "model_halves": 1,
+       "stores_est": 478.0
       },
       "super": {
        "opened_area": 16.99,
@@ -17146,15 +17146,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 208.61,
-       "model_halves": 2,
-       "stores_est": 831.0
-      },
       "droge": {
        "opened_area": 36.2,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "conv": {
+       "opened_area": 208.61,
+       "model_halves": 2,
+       "stores_est": 831.0
       },
       "super": {
        "opened_area": 26.71,
@@ -17175,15 +17175,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 204.45,
-       "model_halves": 2,
-       "stores_est": 815.0
-      },
       "droge": {
        "opened_area": 36.21,
        "model_halves": 2,
        "stores_est": 273.0
+      },
+      "conv": {
+       "opened_area": 204.45,
+       "model_halves": 2,
+       "stores_est": 815.0
       },
       "super": {
        "opened_area": 26.72,
@@ -17206,15 +17206,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 113.19,
-       "model_halves": 1,
-       "stores_est": 451.0
-      },
       "droge": {
        "opened_area": 15.29,
        "model_halves": 1,
        "stores_est": 115.0
+      },
+      "conv": {
+       "opened_area": 113.19,
+       "model_halves": 1,
+       "stores_est": 451.0
       },
       "super": {
        "opened_area": 15.0,
@@ -17235,15 +17235,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 186.05,
-       "model_halves": 2,
-       "stores_est": 741.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "conv": {
+       "opened_area": 186.05,
+       "model_halves": 2,
+       "stores_est": 741.0
       },
       "super": {
        "opened_area": 21.41,
@@ -17264,15 +17264,15 @@
       "model"
      ],
      "openings": {
-      "conv": {
-       "opened_area": 173.15,
-       "model_halves": 2,
-       "stores_est": 690.0
-      },
       "droge": {
        "opened_area": 30.46,
        "model_halves": 2,
        "stores_est": 230.0
+      },
+      "conv": {
+       "opened_area": 173.15,
+       "model_halves": 2,
+       "stores_est": 690.0
       },
       "super": {
        "opened_area": 21.42,
@@ -18409,21 +18409,21 @@
  },
  "changes": {
   "note": "изменение с прошлого выпуска, разложенное по источникам",
-  "previous": "5deaee9c99b8",
+  "previous": "08ee55af7c61",
   "items": [
    {
     "key": "engine",
     "title": "изменение ядра/методики",
-    "delta_v0": 0.01,
-    "delta_price": 0.3,
-    "note": "код 4354054fa2be → 3ce042498a83"
+    "delta_v0": -0.01,
+    "delta_price": -0.2,
+    "note": "код 3ce042498a83 → 9367d19b9d03"
    },
    {
     "key": "valuation_date",
     "title": "перекат даты оценки",
-    "delta_v0": -0.21,
-    "delta_price": 1.5,
-    "note": "2026-11-03 → 2026-11-04, 1 дн"
+    "delta_v0": 0.0,
+    "delta_price": 0.0,
+    "note": "2026-11-04 → 2026-11-04"
    },
    {
     "key": "observations",
@@ -18441,8 +18441,8 @@
    }
   ],
   "total": {
-   "delta_v0": -0.21,
-   "delta_price": 1.8
+   "delta_v0": -0.01,
+   "delta_price": -0.2
   }
  },
  "live": {
